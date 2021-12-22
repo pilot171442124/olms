@@ -1,0 +1,24 @@
+Task list: 2020 09 25
+1. Available book list switch to top menu
+Comments: Nothing to do now
+2. User entry: Label change User Code=>ID
+Comments: DONE
+3. Book entry
+	a. Add a new menu for Department entry
+	b. Add new dropdown for select Department. Like as.... CSE, EEE, MBA etc
+	c. Add filter option by Department
+Comments: DONE
+4. Book request
+	a. Cann't request same book as a same time
+	b. Maximum 10 books allow to request as a time
+	c. Select book from popup
+	d. add department in table
+Comments: DONE
+5. Post entry:
+	a. Admin, Student and Teachers will show this menu for new post
+	b. Also need Other in 'Post To' dropdown
+Comments: DONE
+6. Post: 
+	a. Need to show new post count in notification icon
+	b. Add post view option in each pages
+Comments: DONE

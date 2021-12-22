@@ -1,0 +1,36 @@
+/**
+Template Name:  Theme Name
+NOTE: This is social media style file. All social media related style included in this file.
+*/
+
+ /* ======================
+   Social Media
+   ====================== */
+.social-media i.fa {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	text-align: center;
+	margin: 3px;
+}
+.social-media i.facebook:hover {background: #5d82d1;}
+.social-media i.twitter:hover {background: #1da1f2;}
+.social-media i.gplus:hover {background: #db4f42;}
+.social-media i.linkedin:hover {background: #007bb6;}
+.social-media i.rss:hover {background: #f7711a;}
+
+.social-media.style-1 i.facebook {background: #5d82d1;}
+.social-media.style-1 i.twitter {background: #1da1f2;}
+.social-media.style-1 i.gplus {background: #db4f42;}
+.social-media.style-1 i.linkedin {background: #007bb6;}
+.social-media.style-1 i.rss {background: #f7711a;}
+
+.social-media.style-1 i.fa {border-radius: 50%;color: #fff;}
+.social-media.style-2 i.fa {border-radius: 0;color: #444;border: 1px solid #444;}
+.social-media.style-2 i.fa:hover {color: #fff;}
+.social-media.style-3 i.fa {border-radius: 50%;color: #a0a0a0;border: 1px solid #a0a0a0;}
+.social-media.style-3 i.fa:hover {border: 1px solid #fff;color: #fff;}
+.social-media.style-4 i.fa {border-radius: 50%;color: #fff;border: 1px solid #fff;}
+.social-media.style-4 i.fa:hover {border: 1px solid #fff;color: #fff;}

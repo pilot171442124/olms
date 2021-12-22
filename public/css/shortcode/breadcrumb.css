@@ -1,0 +1,44 @@
+/**
+Template Name:  Theme Name
+NOTE: This is breadcrumb style file. All breadcrumb related style included in this file.
+ */
+
+.breadcrumb-area.style-1 {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;	
+}
+.breadcrumb-area.style-1 .breadcrumb-title {}
+.breadcrumb-area.style-1 .breadcrumb-title h2 {
+	font-size: 35px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0; 
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+}
+.breadcrumb-area.style-1 .breadcrumb-title h2 {
+	color: #fff;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu {
+	margin-top: 10px;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb {
+	margin-bottom: 0px;
+	padding: 0;
+	background-color: transparent;
+	float: right;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb li {
+	color: #fff;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb li a {
+	color: #fff;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb li a:hover {
+	text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	color: #fff;
+}

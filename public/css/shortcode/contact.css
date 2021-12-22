@@ -1,0 +1,246 @@
+/**
+Template Name:  Theme Name
+NOTE: This is contact style file. All contact related style included in this file.
+ */
+/* ======================
+   Contact
+   ====================== */
+.contact.style-1,
+.contact.style-2,
+.contact.style-3 {
+	position: relative;
+}
+.contact.style-1 .contact-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background: rgba(48, 51, 107, 0.9);
+}
+.contact.style-1 .contact-address,
+.contact.style-2 .contact-address {
+	padding: 30px 20px;
+	display: inline-block;
+}
+.contact.style-1 .contact-form,
+.contact.style-2 .contact-form {
+	padding: 30px 20px;
+}
+.contact.style-3 .contact-form {
+	padding: 0px;
+}
+.contact.style-1 .contact-address h2,
+.contact.style-1 .contact-form h2,
+.contact.style-2 .contact-address h2,
+.contact.style-2 .contact-form h2,
+.contact.style-3 .contact-address h2,
+.contact.style-3 .contact-form h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 40px;
+	position: relative;
+}
+.contact.style-1 .contact-address h2,
+.contact.style-1 .contact-form h2 {
+	color: #fff;
+}
+.contact.style-2 .contact-address h2,
+.contact.style-2 .contact-form h2,
+.contact.style-3 .contact-address h2,
+.contact.style-3 .contact-form h2 {
+	color: #444;
+}
+.contact.style-1 .contact-address h2::before, 
+.contact.style-1 .contact-form h2::before,
+.contact.style-2 .contact-address h2::before, 
+.contact.style-2 .contact-form h2::before,
+.contact.style-3 .contact-address h2::before, 
+.contact.style-3 .contact-form h2::before {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	content: "";
+	width: 70px;
+	height: 3px;
+}
+.contact.style-1 .contact-address h2::before, 
+.contact.style-1 .contact-form h2::before {
+	background: #fff;
+}
+.contact.style-1 ul.contact-info,
+.contact.style-2 ul.contact-info {}
+.contact.style-1 ul.contact-info li,
+.contact.style-2 ul.contact-info li,
+.contact.style-3 .contact-info {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 26px;
+	width: 100%;
+	display: inline-block;
+}
+.contact.style-1 ul.contact-info li {
+	color: #fff;
+}
+.contact.style-2 ul.contact-info li,
+.contact.style-3 .contact-info {
+	color: #444;
+}
+.contact.style-1 ul.contact-info li .con-icon {
+	float: left;
+	margin-right: 15px;
+}
+.contact.style-1 ul.contact-info li .con-icon i.fa {
+	font-size: 30px;
+	line-height: 35px;
+	height: 35px;
+	text-align: center;
+	width: 35px;
+	margin-top: 10px;
+}
+.contact.style-1 ul.contact-info li .con-desc {
+	float: left;
+	width: calc(100% - 50px);
+}
+.contact.style-2 ul.contact-info li .con-icon {
+	float: left;
+	margin-right: 15px;
+	border: 2px solid #E4E4E4;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+	-moz-box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+	box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+}
+.contact.style-2 ul.contact-info li .con-icon i.fa {
+	font-size: 22px;
+}
+.contact.style-2 ul.contact-info li .con-desc {
+	float: left;
+	width: calc(100% - 79px);
+}
+.contact.style-3 .contact-info .con-icon {
+	float: left;
+	margin-right: 15px;
+	border: 2px solid #E4E4E4;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+	-moz-box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+	box-shadow: 0px 0px 61px 10px rgba(199,197,199,0.46);
+}
+.contact.style-3 .contact-info .con-icon i.fa {
+	font-size: 22px;
+}
+.contact.style-3 .contact-info .con-desc {
+	float: left;
+	width: calc(100% - 79px);
+}
+.contact.style-1 .contact-form input, 
+.contact.style-1 .contact-form textarea,
+.contact.style-2 .contact-form input, 
+.contact.style-2 .contact-form textarea,
+.contact.style-3 .contact-form input, 
+.contact.style-3 .contact-form textarea {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.contact.style-1 .contact-form input, 
+.contact.style-1 .contact-form textarea {
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border-color: #444;
+}
+.contact.style-2 .contact-form input, 
+.contact.style-2 .contact-form textarea,
+.contact.style-3 .contact-form input, 
+.contact.style-3 .contact-form textarea {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	border-color: #dbdbdb;
+}
+.contact.style-1 .contact-form input:focus, 
+.contact.style-1 .contact-form textarea:focus,
+.contact.style-2 .contact-form input:focus, 
+.contact.style-2 .contact-form textarea:focus,
+.contact.style-3 .contact-form input:focus, 
+.contact.style-3 .contact-form textarea:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.contact.style-1 .contact-form input:focus, 
+.contact.style-1 .contact-form textarea:focus {
+	border-color: #444;
+}
+.contact.style-1 .contact-form input,
+.contact.style-2 .contact-form input,
+.contact.style-3 .contact-form input {
+	height: 45px;
+}
+.contact.style-1 .contact-form .submit-btn {
+	border: 2px solid #fff;
+	margin-top: 15px;
+}
+.contact.style-1 .contact-form .submit-btn:hover {
+	background: #fff;
+}
+.contact.style-2 .contact-form .submit-btn {
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+.contact.style-2 .contact-form .submit-btn,
+.contact.style-3 .contact-form .submit-btn {
+	border-width: 2px;
+	border-style: solid;
+	margin-top: 15px;
+}
+.contact.style-2 .contact-form .submit-btn:hover,
+.contact.style-3 .contact-form .submit-btn:hover {
+	background: #fff;
+	color: #444;
+}
+.contact.style-1 .google-map {
+	width:100%;
+	height:900px;
+}
+.contact.style-2 .google-map{
+	width:100%;
+	height:400px;
+}
+.contact.style-3 .google-map {
+	width:100%;
+	height:385px;
+}
+.map-tooltip {}
+.map-tooltip-content {}
+ul.map-tooltip-info {}
+ul.map-tooltip-info li {}
+ul.map-tooltip-info li h2 {
+	font-size: 14px;
+	line-height: normal;
+	margin-bottom: 5px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+ul.map-tooltip-info li p {
+	font-size: 14px;
+	color: #444;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+
+
+
+

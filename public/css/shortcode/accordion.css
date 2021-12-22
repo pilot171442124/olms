@@ -1,0 +1,153 @@
+/**
+Template Name:  Theme Name
+NOTE: This is accordion style file. All accordion related style included in this file.
+ */
+
+.accordion-section.style-1,
+.accordion-section.style-2,
+.accordion-section.style-3,
+.accordion-section.style-4 {}
+.accordion-section.style-1 .panel-title a,
+.accordion-section.style-3 .panel-title a {
+	background: #eee;
+	display: block;
+	color: #111;
+	padding: 3px 10px 4px 10px;
+}
+.accordion-section.style-1 .card,
+.accordion-section.style-2 .card,
+.accordion-section.style-3 .card,
+.accordion-section.style-4 .card {
+	border: none;
+	border-radius: 0;
+}
+.accordion-section.style-1 .card,
+.accordion-section.style-3 .card,
+.accordion-section.style-4 .card {
+	margin-bottom: 5px;
+}
+.accordion-section.style-2 .card{
+	margin-bottom: 15px;
+}
+.accordion-section.style-1 .card-header,
+.accordion-section.style-2 .card-header,
+.accordion-section.style-3 .card-header,
+.accordion-section.style-4 .card-header {
+	padding:0;
+	border-bottom: none;
+}
+.accordion-section.style-1 .card-header button.btn-link,
+.accordion-section.style-3 .card-header button.btn-link,
+.accordion-section.style-4 .card-header button.btn-link {
+	display: block;
+	padding: 15px 10px;
+	width: 100%;
+	text-align: left;
+	border-radius: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.accordion-section.style-1 .card-header button.btn-link,
+.accordion-section.style-3 .card-header button.btn-link {
+	-webkit-box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+	-moz-box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+	box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+}
+.accordion-section.style-1 .card-header button.collapsed,
+.accordion-section.style-3 .card-header button.collapsed,
+.accordion-section.style-4 .card-header button.collapsed {
+	background: #f5f5f5;
+	color: #444;
+}
+.accordion-section.style-1 .card-header button.btn-link:focus,
+.accordion-section.style-1 .card-header button.btn-link:hover,
+.accordion-section.style-3 .card-header button.btn-link:focus,
+.accordion-section.style-3 .card-header button.btn-link:hover,
+.accordion-section.style-4 .card-header button.btn-link:focus,
+.accordion-section.style-4 .card-header button.btn-link:hover {
+	text-decoration: none;
+}
+.accordion-section.style-2 .card-header {
+	background-color: transparent;
+	padding: 0px;
+}
+.accordion-section.style-2 .card-header h3 {
+	font-size: 20px;
+	line-height: 22px;
+	cursor: pointer;
+	padding-left: 55px;
+	padding-top: 7px;
+}
+.accordion-section.style-1 .icon,
+.accordion-section.style-2 .icon,
+.accordion-section.style-3 .icon {
+	position: relative;
+}
+.accordion-section.style-1 .icon .card-header button::after,
+.accordion-section.style-2 .icon .card-header h3::before,
+.accordion-section.style-3 .icon .card-header button::after {
+	font-family: "FontAwesome";
+	position: absolute;
+	width: 40px;
+	top: 0;
+	text-align: center;
+}
+.accordion-section.style-1 .icon .card-header button::after {
+	height: 100%;
+	font-size: 20px;
+	line-height: 45px;
+	right: 0;
+}
+.accordion-section.style-3 .icon .card-header button::after {
+	height: 100%;
+	font-size: 14px;
+	line-height: 50px;
+	right: 0;
+}
+.accordion-section.style-2 .icon .card-header h3::before {
+	left: 0;
+	height: 40px;
+	font-size: 14px;
+	line-height: 39px;
+	color: #444;
+	border-radius: 100%;
+	border: 1px solid #eee;
+}
+.accordion-section.style-1 .angle-icon .card-header button.collapsed::after {
+	content: "\f105";
+}
+.accordion-section.style-1 .angle-icon .card-header button::after {
+	content: "\f107";
+}
+.accordion-section.style-2 .angle-icon .card-header h3.collapsed::before {
+	content: "\f067";
+}
+.accordion-section.style-2 .angle-icon .card-header h3::before {
+	content: "\f068";
+}
+.accordion-section.style-3 .angle-icon .card-header button.collapsed::after {
+	content: "\f067";
+}
+.accordion-section.style-3 .angle-icon .card-header button::after {
+	content: "\f068";
+}
+.accordion-section.style-1 .card-body,
+.accordion-section.style-2 .card-body,
+.accordion-section.style-3 .card-body,
+.accordion-section.style-4 .card-body {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 26px;
+}
+.accordion-section.style-1 .card-body,
+.accordion-section.style-3 .card-body,
+.accordion-section.style-4 .card-body {
+	padding: 15px;
+}
+.accordion-section.style-2 .card-body {
+	padding: 0px 0px 0px 55px;
+}

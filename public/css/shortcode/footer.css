@@ -1,0 +1,115 @@
+/**
+Template Name:  Theme Name
+NOTE: This is footer style file. All footer related style included in this file.
+ */
+
+
+/* ======================
+   1. Footer
+   ====================== */
+.footer-top-are {}
+.footer-top-bg {
+	background: #1A1E21;
+}
+.footer-widget {}
+.footer-widget h2 {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+.footer-logo {
+	display: block;
+}
+.footer-logo img {
+	
+}
+.footer-widget p {
+	color: #a0a0a0;
+	font-size: 14px;
+	line-height: 26px;
+}
+.footer-widget ul.widget-list {}
+.footer-widget ul.widget-list li {
+	position: relative;
+	padding-left: 12px;
+	margin-bottom: 10px;
+}
+.footer-widget ul.widget-list li a {
+	color: #a0a0a0;
+	font-size: 14px;
+	line-height: 26px;
+}
+.footer-widget ul.widget-list li a::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "\f105";
+	font-family: fontawesome;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	color: #a0a0a0;
+}
+.footer-widget ul.widget-list li a:hover::before {
+	left: 3px;
+}
+ul.flickr-photo-gallery {}
+ul.flickr-photo-gallery li {
+	width: 75px;
+	height: 55px;
+	float: left;
+	margin: 3px;
+}
+.flickr-gallery {}
+.flickr-gallery img {
+	width: 100%;
+	height: 100%;
+}
+.subscribe {
+	position: relative;
+}
+.subscribe input {
+	border: none;
+	padding: 5px 50px 5px 5px;
+	width: 100%;
+	background: #e2e2e2;
+}
+.subscribe input:focus {
+	background: #fff;
+}
+button.subscribe-btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: none;
+	padding-left: 13px;
+	padding-right: 13px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+button.subscribe-btn i.fa {
+	font-size: 15px;
+	color: #fff;
+}
+button.subscribe-btn:hover {
+	background: #333333;
+}
+.footer-bottom-are {
+	background: #111;
+}
+.footer-bottom-are p {
+	margin: 0;
+	padding: 0;
+	color: #eee;
+	font-size: 14px;
+}

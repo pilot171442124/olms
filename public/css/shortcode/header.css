@@ -1,0 +1,297 @@
+/**
+Template Name:  Theme Name
+NOTE: This is header style file. All header related style included in this file.
+ */
+
+/* ======================
+   header
+   ====================== */
+.top-header.style-1 {
+	border-bottom: 1px solid #eeeeee;
+	padding: 5px 0;
+}
+.top-header.style-1 .list-inline {}
+.top-header.style-1 .list-inline li {
+	float: left;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 20px;
+}
+.top-header.style-1 .list-inline li i.fa {
+	margin-right: 5px;
+	font-size: 16px;
+}
+.header {}
+.header.style-1 {
+	background: #ffffff;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.header-fixed {
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 1030;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.header-transparent {
+	background: transparent;
+}
+.sticky {
+	left: 0;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #ffffff;
+	z-index: 1030;
+	-webkit-box-shadow: 0 -3px 11px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 0 -3px 11px rgba(50, 50, 50, 0.4);
+	box-shadow: 0 -3px 11px rgba(50, 50, 50, 0.4);	
+}
+.logo {
+	padding: 10px 0;
+}
+.logo img {
+	/*width: 188px;*/
+}
+
+/* ======================
+   menu
+   ====================== */
+.main-menu {}
+.main-menu li {
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.main-menu li a {
+	color: #f6f6f6;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 35px 0;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.main-menu > li > a::before {
+	background: #f6f6f6;
+	bottom: 23px;
+	content: "";
+	height: 1px;
+	left: 0;
+	margin: auto;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	width: 0px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.main-menu li:hover > a::before {
+	opacity: 1;
+	width: 15px;
+}
+.main-menu li ul.submenu {
+	position: absolute;
+	left: 0;
+	top: 110%;
+	width: 250px;
+	background: #fff;
+	z-index: 11;
+	text-align: left;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.main-menu li:hover > ul.submenu {
+	opacity:1;
+	visibility:visible;
+	top:100%;
+}
+.main-menu li ul.submenu li {
+	display: block;
+	margin: 0;
+	float: none;
+	border-bottom: 1px solid #eee;
+}
+.main-menu li ul.submenu li:last-child {
+	border:none;
+}
+.main-menu li ul.submenu li a {
+	color: #444;
+	font-size: 12px;
+	padding: 10px 15px;
+	display: block;
+	text-transform: capitalize;
+}
+.main-menu li ul.submenu li ul.submenu {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+span.tp-angle {
+	margin-left: 3px;
+}
+.header-transparent.sticky .main-menu > li::after {
+  top: 25px;
+}
+.header-transparent.sticky .main-menu > li > a::before {
+  bottom: 17px;
+}
+
+.mobile-menu-area {
+	display: none;
+}
+.header.style-1.sticky .logo,
+.header-transparent.sticky .logo {
+	padding: 11px 0;
+}
+.header.style-1 .main-menu > li > a,
+.header-transparent.sticky .main-menu > li > a {
+	color: #303030;
+}
+.header.style-1.sticky .main-menu > li > a,
+.header-transparent.sticky .main-menu > li > a {
+  padding: 23px 0;
+}
+.header.style-1.sticky .mean-container a.meanmenu-reveal span,
+.header-transparent.sticky .mean-container a.meanmenu-reveal span {
+	background: #444;
+}
+.header.style-1.sticky .mean-container a.meanmenu-reveal,
+.header-transparent.sticky .mean-container a.meanmenu-reveal {
+	top: -56px;
+	color: #444;
+}
+/*search*/
+.search-wrapper {}
+.header-search {
+	border-left: 1px solid #444;
+	padding-left: 30px;
+	margin-top: 30px;
+}
+.header-search a.search-open {
+	font-size: 18px;
+	color: #444;
+	line-height: 1;
+}
+.search {
+	position: relative;
+}
+.search input {
+	border: none;
+	padding: 10px 60px 10px 10px;
+	width: 100%;
+	background: #e2e2e2;
+}
+.search input:focus {
+	background: #fff;
+}
+button.search-btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+button.search-btn i.fa {
+	font-size: 22px;
+	color: #fff;
+}
+button.search-btn:hover {
+	background: #333333;
+}
+.inner-search-box {
+	background: #1A1E21;
+	padding: 100px 30px;
+	text-align: left;
+	width: 60%;
+	margin: 40px auto;
+	position: relative;
+}
+.inner-search-box button.mfp-close{
+	color: #fff;
+}
+.inner-search-box h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 22px;
+	font-family: 'Dosis', sans-serif;
+	margin-bottom: 20px;
+}
+.my-mfp-zoom-in .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out; 
+	-o-transition: all 0.2s ease-in-out; 
+	transition: all 0.2s ease-in-out; 
+	-webkit-transform: scale(0.8); 
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	transform: scale(0.8); 
+}
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: scale(1); 
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	transform: scale(1); 
+}
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+	-webkit-transform: scale(0.8); 
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	transform: scale(0.8); 
+	opacity: 0;
+}
+.my-mfp-zoom-in.mfp-bg {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+.header.style-1.sticky .header-search,
+.header-transparent.sticky .header-search {
+	margin-top: 19px;
+}
+

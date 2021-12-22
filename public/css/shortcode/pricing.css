@@ -1,0 +1,172 @@
+/**
+Template Name:  Theme Name
+NOTE: This is pricing style file. All pricing related style included in this file.
+ */
+
+
+/* ======================
+   1. Pricing
+   ====================== */
+.single-pricing {
+	padding-bottom: 15px;
+	overflow: hidden;
+	background: #f5f3f8;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+}
+.single-pricing.active,
+.single-pricing:hover {
+	-webkit-box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+	-moz-box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+	box-shadow: 0px 14px 40px 10px rgba(68,68,68,0.2);
+	transform: translateY(2px);
+	-webkit-transform: translateY(2px);
+	-o-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	-moz-transform: translateY(2px);
+}
+.pricing-head {
+	padding: 25px 5px;
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 26px;
+	z-index: 1;
+	position: relative;
+}
+.pricing-head abbr,
+.pricing-head span {
+	font-size: 25px;
+	font-weight: 400;
+}
+.pricing-plan-price p {
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 14px;
+}
+.pricing-type {
+	color: #fff;
+	line-height: 26px;
+	padding: 10px 5px;
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.pricing-type-bg-1 {
+	background: #013243;
+}
+.pricing-type-bg-2 {
+	background: #5f5fa7;
+}
+.pricing-type-bg-3 {
+	background: #e83e8c;
+}
+.pricing-type-bg-4 {
+	background: #A558A6;
+}
+.pricing-plan-list {}
+.pricing-plan-list ul {}
+.pricing-plan-list ul li {
+	line-height: 50px;
+	text-transform: capitalize;
+	background: #f9f9fb;
+	color: #444;
+	font-size: 14px;
+}
+.pricing-plan-list ul li:nth-child(2n+1) {
+	background: #f5f3f8;
+}
+.get-started {
+	margin-top: 15px;
+}
+
+
+/* ======================
+   2. Pricing
+   ====================== */
+.single-pricing-2 {
+	padding-bottom: 15px;
+	overflow: hidden;
+	background: #f5f3f8;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	
+	transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-o-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-moz-transform: translateY(0);
+}
+.single-pricing-2:hover {
+	-webkit-box-shadow: 0px 12px 42px 0px rgba(68,68,68,0.18);
+	-moz-box-shadow: 0px 12px 42px 0px rgba(68,68,68,0.18);
+	box-shadow: 0px 12px 42px 0px rgba(68,68,68,0.18);
+	
+	transform: translateY(2px);
+	-webkit-transform: translateY(2px);
+	-o-transform: translateY(2px);
+	-ms-transform: translateY(2px);
+	-moz-transform: translateY(2px);
+}
+.pricing-head-2 {
+	background: #f5f3f8;
+	padding: 25px 5px;
+	color: #444;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 26px;
+}
+.pricing-head-2 abbr,
+.pricing-head-2 span {
+	font-size: 25px;
+	font-weight: 400;
+}
+.pricing-plan-price-2 p {
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 14px;
+}
+.pricing-type-2 {
+	color: #fff;
+	line-height: 26px;
+	padding: 10px 5px;
+	font-size: 24px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.pricing-type-bg-1-2 {
+	background: #013243;
+}
+.pricing-type-bg-2-2 {
+	background: #5f5fa7;
+}
+.pricing-type-bg-3-2 {
+	background: #e83e8c;
+}
+.pricing-type-bg-4-2 {
+	background: #A558A6;
+}
+.pricing-plan-list-2 {}
+.pricing-plan-list-2 ul {}
+.pricing-plan-list-2 ul li {
+	line-height: 50px;
+	text-transform: capitalize;
+	background: #f9f9fb;
+	color: #444;
+	font-size: 14px;
+}
+.pricing-plan-list-2 ul li:nth-child(2n+1) {
+	background: #f5f3f8;
+}
+

@@ -1,0 +1,257 @@
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.main-menu li {
+	margin-left: 15px;
+}
+.main-menu li ul.submenu {
+	width: 215px;
+}
+.team-area.style-2 .single-team .team-member-info {
+	bottom: -25%;
+}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.main-menu li {
+	margin-left: 13px;
+}
+.main-menu li a {
+	font-size: 10px;
+}
+.main-menu li ul.submenu {
+	width: 165px;
+}
+.main-menu li ul.submenu li a {
+	padding: 10px 10px;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb {
+	float: left;
+}
+.slider-content.style-1 h2 {
+	font-size: 25px;
+}
+.slider-content.style-2 h2 {
+	font-size: 25px;
+}
+.team-area.style-2 .single-team .team-member-info {
+	bottom: -17%;
+}
+.contact.style-1 .contact-area {
+	position: relative;
+}
+.contact.style-1 .contact-form,
+.contact.style-2 .contact-form {
+	padding: 30px 0px;
+}
+.contact.style-1 .contact-address, 
+.contact.style-2 .contact-address {
+	padding: 30px 0px;
+}
+.contact.style-1 .google-map {
+	height:400px;
+}
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.mobile-menu-area {
+	display: block;
+}
+.search-wrapper {
+	display: none;
+}
+.slider-content.style-1 h2 {
+	font-size: 20px;
+}
+.slider-content.style-1 p {
+	font-size: 14px;
+}
+.slider-content.style-2 h2 {
+	font-size: 20px;
+}
+.slider-content.style-2 p {
+	font-size: 14px;
+}
+.animated-content.style-1 h2 {
+	font-size: 25px;
+}
+.animated-content.style-2 p {
+	margin-bottom: 20px;
+}
+.animated-content.style-2 h2 {
+	font-size: 25px;
+}
+.featured-area.style-1 {
+	margin-top: 60px;
+}
+.about-img-box::before {
+	top: 0;
+	left: 0;
+}
+.team-area.style-2 .single-team .team-member-info {
+	bottom: -52px;
+}
+.portfolio-nav > ul > li {
+	margin-bottom: 10px;
+}
+.single-testimonial.style-1 {
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.single-testimonial.style-1 .testimonial-img {
+	float: none;
+	margin: 0 auto;
+}
+.single-testimonial.style-1 .testimonial-des {
+	width: 100%;
+	text-align: center;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb {
+	float: left;
+}
+.breadcrumb-area.style-1 .breadcrumb-title h2 {
+	font-size: 20px;
+}
+.about-img img {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+}
+.contact.style-1 .contact-area {
+	position: relative;
+}
+.contact.style-1 .contact-form,
+.contact.style-2 .contact-form {
+	padding: 30px 0px;
+}
+.contact.style-1 .contact-address, 
+.contact.style-2 .contact-address {
+	padding: 30px 0px;
+}
+.contact.style-1 .google-map {
+	height:400px;
+}
+.login-signup {
+	width: 100%;
+}
+.area-404 .text-404 {
+	font-size: 120px;
+}
+ul.pagination li {
+	margin-right: 0px;
+}
+ul.pagination li a {
+	padding: 3px 10px;
+}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.mobile-menu-area {
+	display: block;
+}
+.search-wrapper {
+	display: none;
+}
+.slider-content.style-1 h2 {
+	font-size: 20px;
+}
+.slider-content.style-1 p {
+	font-size: 14px;
+}
+.slider-content.style-2 h2 {
+	font-size: 20px;
+}
+.slider-content.style-2 p {
+	font-size: 14px;
+}
+
+.animated-content.style-1 h2 {
+	font-size: 25px;
+}
+.animated-content.style-2 p {
+	margin-bottom: 20px;
+}
+.animated-content.style-2 h2 {
+	font-size: 25px;
+}
+.featured-area.style-1 {
+	margin-top: 60px;
+}
+.about-img-box::before {
+	top: 0;
+	left: 0;
+}
+.team-area.style-2 .single-team .team-member-info {
+	bottom: -52px;
+}
+.single-testimonial.style-1 {
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.single-testimonial.style-1 .testimonial-img {
+	float: none;
+	margin: 0 auto;
+}
+.single-testimonial.style-1 .testimonial-des {
+	width: 100%;
+	text-align: center;
+}
+.breadcrumb-area.style-1 .breadcrumb-menu .breadcrumb {
+	float: left;
+}
+.breadcrumb-area.style-1 .breadcrumb-title h2 {
+	font-size: 20px;
+}
+.about-img img {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+}
+.contact.style-1 .contact-area {
+	position: relative;
+}
+.contact.style-1 .contact-form,
+.contact.style-2 .contact-form {
+	padding: 30px 0px;
+}
+.contact.style-1 .contact-address, 
+.contact.style-2 .contact-address {
+	padding: 30px 0px;
+}
+.contact.style-1 .google-map {
+	height:400px;
+}
+.login-signup {
+	width: 100%;
+}
+.area-404 .text-404 {
+	font-size: 120px;
+}
+ul.pagination li {
+	margin-right: 0px;
+}
+ul.pagination li a {
+	padding: 3px 10px;
+}
+}
